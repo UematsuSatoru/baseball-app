@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+BASEBALL GATE
 
-Things you may want to cover:
+# アプリケーション概要
+草野球チームの仲間探しや交流をサポートするアプリで、チーム紹介や募集、メッセージなどができる。
 
-* Ruby version
+# 利用方法
+1. トップページ（一覧ページ）のヘッダーからユーザー新規登録を行う
+2. チームの登録画面で、チーム名やチームロゴ、チーム紹介文などを入力してチームを登録する。
+3. チームの募集画面で、募集タイトルや募集内容、募集条件などを入力して募集を投稿する。
+4. 募集に応募したい場合は、応募ボタンを押して応募メッセージを送る。
+5. 応募した相手とメッセージのやりとりができるチャット機能を利用する
+6. チームの評価やレビューを投稿したり閲覧したりすることができる。
 
-* System dependencies
+# アプリケーションを作成した背景
+地元が北海道で、小学校から大学まで野球をやってきて、今でも野球が好きなので、上京して住む環境が変わったときに、また野球がしたいと思ったとき、近くで草野球チームがないか、簡単に探せるアプリケーションがあれば嬉しいと思ったのが、今回作成に至った背景である。
 
-* Configuration
+# 洗い出した要件
+[要件を定義したシート](https://docs.google.com/spreadsheets/d/1yRdvB44hRa3GsSAarZPTSiNwHlQIShUyQU8yR31IaD8/edit?usp=sharing)
 
-* Database creation
+# データーベース設計
+[![Image from Gyazo](https://i.gyazo.com/ae56724a7575cf949452323cd4be5db2.png)](https://gyazo.com/ae56724a7575cf949452323cd4be5db2)
 
-* Database initialization
+# 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/6a0b61d65b9a379d2b6f021d80351d5f.png)](https://gyazo.com/6a0b61d65b9a379d2b6f021d80351d5f)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 開発環境
+・Ruby
+・Rails
+・MySQL
+・GitHub
+・Visual Studio Code
